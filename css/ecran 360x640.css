@@ -1,0 +1,683 @@
+@media screen and (max-width: 360px) {
+
+    p{
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: #000000;
+    }
+    /*первый блок*/
+    .firstblock{
+        width: 70%;
+        height: 155vw;
+        display: block;
+        position: relative;
+    }
+    
+    /*див с буквами*/
+    .textjump1{
+        width: 39vw;
+        height: 19.97vw;
+        display: block;
+        margin-left: 30.07vw;
+        margin-top: 0.90vw;
+        position: absolute;
+    }
+    /*буквы*/
+    .sheeptext{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 13.89vw;
+        line-height: 15.97vw;
+    }
+    
+    .jump:hover {
+        animation: jump 0.5s cubic-bezier(0.26, 0.5, 0.57, 1.05) infinite alternate both;
+    }
+    
+    @keyframes jump{
+        0% {transform: translateY(0);}
+        100%{transform: translateY(-3.4vw);}
+    }
+    /*второй див с буквами*/
+    .textjump2{
+        width: 31.01vw;
+        height: 19.97vw;
+        display: block;
+        margin-left: 30.07vw;
+        margin-top: 79.39vw;
+        position: absolute;
+    }
+    /*буквы*/
+    .clubtext{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 13.89vw;
+        line-height: 15.97vw;
+    }
+    
+    .sheep1{
+        width: 42.54vw;
+        height: 50.6vw;
+        position: absolute;
+        display: block;
+        margin-left: 26.25vw;
+        margin-top: 28.42vw;
+        animation: sheep1 0.6s cubic-bezier(0.26, 0.5, 0.57, 1.05) infinite alternate both;
+    }
+    
+    @keyframes sheep1{
+        0% {transform: translateY(0);}
+        100%{transform: translateY(-10.9vw);}
+    }
+    
+    .sheep1 img{
+        width: 100%;
+    }
+    
+    .eyes{
+        width: 14.29vw;
+        height: 10.15vw;
+        position: absolute;
+        display: block;
+        margin-left: 41.0vw;
+        margin-top: 43.8vw;
+        animation: eyes 0.6s cubic-bezier(0.26, 0.5, 0.57, 1.05) infinite alternate both;
+    }
+    
+    @keyframes eyes{
+        0% {transform: translateY(0);}
+        100%{transform: translateY(-10.9vw);}
+    }
+    .eyes img{
+        width: 95%;
+    }
+    
+    /*анимация глаз*/
+    .eyesanim{
+        width: 100%;
+        animation: eyesanim 0.6s cubic-bezier(0.26, 0.5, 0.57, 1.05) infinite alternate both;
+    }
+    
+    @keyframes eyesanim{
+        0% {transform: translateY(0);}
+        100%{transform: translateY(3vw);}
+    }
+    
+    .gifsheep{
+        width: 66.72vw;
+        height: 63.19vw;
+        position: absolute;
+        display: block;
+        margin-left: 15vw;
+        margin-top: 95.39vw;
+    }
+    
+    .gifsheep img{
+        width: 100%;
+    }
+    /*кружочки1*/
+    .circles1{
+        width: 16.02vw;
+        height: 46.31vw;
+        position: absolute;
+        display: block;
+        margin-left: 37.42vw;
+        margin-top: 2vw;
+        display: none;
+    }
+    
+    .bigcircle1{
+        position: absolute;
+        display: block;
+        color: #000000;
+        width: 10vw;
+        height: 10vw;
+        margin-left: 4vw;
+        border-radius: 6.15vw;
+        background: #ffffff;
+        text-align: center;
+        line-height:10vw;
+        font-weight: 400;
+        font-size: 2.08vw;
+    }
+    
+    .bigcircle1:hover {
+        cursor: pointer;
+        animation: bigcircle1 0.6s ease;
+    }
+    
+    @keyframes bigcircle1 {
+        0% { transform: scaleY(1.0);}
+        50% { transform:scaleY(1.3);}
+        100% { transform: scaleY(1.0);}
+     }
+    
+    .bigcircle1 p{
+        width: 10vw;
+        height: 10vw;
+    }
+    
+    .littlecircle1{
+        position: absolute;
+        display: block;
+        color: #000000;
+        width: 8vw;
+        height: 8vw;
+        margin-left:0.3vw;
+        top: 37.65vw;
+        border-radius: 4.69vw;
+        background: #ffffff;
+        text-align: center;
+        line-height:8vw;
+        font-weight: 400;
+        font-size: 2.08vw;
+    }
+    
+    .littlecircle1 p{
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .littlecircle1:hover {
+        cursor: pointer;
+        animation: littlecircle1 0.6s ease;
+    }
+    
+    @keyframes littlecircle1 {
+        0% { transform: scaleY(1.0);}
+        50% { transform:scaleY(1.3);}
+        100% { transform: scaleY(1.0);}
+     }
+    
+    /*кружочки2*/
+    .circles2{
+        width: 24.31vw;
+        height: 16.02vw;
+        position: absolute;
+        display: block;
+        margin-left: 42.82vw;
+        margin-top: 54.78vw;
+        display: none;
+    }
+    
+    .bigcircle{
+        position: absolute;
+        display: block;
+        color: #000000;
+        width: 12.29vw;
+        height: 12.29vw;
+        border-radius: 6.15vw;
+        background: #ffffff;
+        text-align: center;
+        line-height:12.29vw;
+        font-weight: 400;
+        font-size: 2.08vw;
+    }
+    
+    .bigcircle:hover {
+        cursor: pointer;
+        animation: bigcircle 0.6s ease;
+    }
+    
+    @keyframes bigcircle {
+        0% { transform: scaleX(1.0);}
+        50% { transform:scaleX(1.4);}
+        100% { transform: scaleX(1.0);}
+     }
+    
+    .bigcircle p{
+        width: 12.29vw;
+        height: 12.29vw;
+    }
+    /*анимация дрожания*/
+    .one:hover {
+        cursor: pointer;
+        animation: one 0.6s ease;
+    }
+    
+    @keyframes one{
+        15% {transform: translateX(0.8vw);}
+        30% {transform: translateX(-0.8vw);}
+        40% {transform: translateX(0.5vw);}
+        50% {transform: translateX(-0.5vw);}
+        65% {transform: translateX(0.2vw);}
+        100% {transform: translateX(0);}
+    }
+    
+    .littlecircle{
+        position: absolute;
+        display: block;
+        color: #000000;
+        width: 9.38vw;
+        height: 9.38vw;
+        margin-left: 15.08vw;
+        top: 5.65vw;
+        border-radius: 4.69vw;
+        background: #ffffff;
+        text-align: center;
+        line-height:9.38vw;
+        font-weight: 400;
+        font-size: 2.08vw;
+    }
+    
+    .littlecircle:hover {
+        cursor: pointer;
+        animation: littlecircle 0.6s ease;
+    }
+    
+    @keyframes littlecircle {
+        0% { transform: scaleX(1.0);}
+        50% { transform:scaleX(1.4);}
+        100% { transform: scale(1.0);}
+     }
+    
+    .littlecircle p{
+        width: 9.38vw;
+        height: 9.38vw
+    }
+    
+    /*второй блок*/
+    .secondblock{
+        width: 70%;
+        height: 53.39vw;
+        display: block;
+        position: relative;
+    }
+    
+    /* прыгающие овечки */
+    .groupjumped{
+        display: block; 
+        position: absolute;
+        width: 95vw;
+        height: 52.85vw;
+        top: 0.32vw;
+        overflow: hidden;
+    }
+    
+    .sheepgroup1{
+        display: block; 
+        position: absolute;
+        top: 18vw;
+        animation: jumped1 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) infinite alternate both;
+    }
+    
+    @keyframes jumped1{
+        0% {transform: translateY(0);}
+        100%{transform: translateY(-30vw);}
+    }
+    
+    .sheepgroup2{
+        display: block; 
+        position: absolute;
+        top: 18vw;
+        animation: jumped1 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) infinite alternate both;
+        animation-direction: alternate-reverse;
+    }
+    
+    @keyframes jumped2{
+        0% {transform: translateY(-30vw);}
+        100%{transform: translateY(0);}
+    }
+    
+    .group1{
+        width: 100%;
+        height: 31.85vw;
+        top: 18vw;
+        display: block;
+        position: absolute;
+        animation: group1 6.695s linear infinite;
+    }
+    
+    @keyframes group1{
+        0% {margin-left: -145.687vw;}
+        100% {margin-left: 39.486vw;}
+    }
+    
+    .group2{
+        width: 100%;
+        height: 31.85vw;
+        top: 18vw;
+        display: block;
+        position: absolute;
+        animation: group2 6.695s linear infinite;
+    }
+    
+    @keyframes group2{
+        0% {margin-left: -145.687vw;}
+        100% {margin-left: 39.486vw;}
+    }
+    
+    .sheepgroup1 img{
+        width: 200vw;
+    }
+    .sheepgroup2 img{
+        width: 200vw;
+        margin-left: 28vw;
+    }
+    
+    /* третий блок */
+    .thirdblock{
+        /* width: 90%; */
+        height: 46vw;
+        display: block;
+        position: relative;
+        
+    }
+    /* гифка2 */
+    .gifsheep2{
+        width: 92.03vw;
+        height: 40.31vw;
+        display: block;
+        position: absolute;
+        margin-left: 3vw;
+    }
+    
+    .gifsheep2 img{
+        width: 100%;
+    }
+    
+    /*четвертый блок*/
+    .fourthblock{
+        width: 70%;
+        height: 44.67vw;
+        display: block;
+        position: relative;
+    }
+    
+    .textjump3{
+        width: 60.99vw;
+        height: 30.97vw;
+        display: block;
+        margin-left: 31.87vw;
+        /* margin-top: 2.08vw; */
+        position: absolute;
+    }
+    
+    .freedomtext{
+        display: inline-block;
+        top: 17px;
+        font-weight: 400;
+        font-size: 13.89vw;
+        line-height: 15.98vw;
+    }
+    
+    .textjump4{
+        width: 31.01vw;
+        height: 19.97vw;
+        display: block;
+        margin-left: 6.94vw;
+        margin-top: 15.08vw;
+        position: absolute;
+    }
+    
+    .lovetext{
+        display: inline-block;
+        top: 17px;
+        font-weight: 400;
+        font-size: 13.89vw;
+        line-height: 15.98vw;
+    }
+    
+    /*кружочки*/
+    
+    .circles3{
+        width: 47.59vw;
+        height: 25.89vw;
+        position: absolute;
+        display: block;
+        margin-left: 43.7vw;
+        margin-top: 18.45vw;
+    }
+    
+    .bigcircles3{
+        position: absolute;
+        display: block;
+        color: #000000;
+        width: 14.58vw;
+        height: 14.58vw;
+        top: 10.9vw;
+        border-radius: 7.29vw;
+        background-color: #ffffff;
+        font-weight: 400;
+        font-size: 2.58vw;
+    }
+    
+    .bigcircles3:hover {
+        cursor: pointer;
+        animation: bigcircles3 0.6s ease;
+    }
+    
+    @keyframes bigcircles3 {
+        0% { transform: scaleY(1.0);}
+        50% { transform:scaleY(1.3);}
+        100% { transform: scaleY(1.0);}
+    }
+    
+    .bigcircles3 p{
+        width: 14.58vw;
+        height: 14.58vw;
+        position: absolute;
+        display: block;
+        top: 5vw;
+        margin-left: 2vw;
+    }
+    
+    .littlecircles3{
+        position: absolute;
+        display: block;
+        color: #000000;
+        width: 25.58vw;
+        height: 25.58vw;
+        margin-left: 22vw;
+        border-radius: 14.59vw;
+        background-color: #ffffff;
+        font-weight: 400;
+        font-size: 2.58vw;
+    }
+    
+    .littlecircles3:hover {
+        cursor: pointer;
+        animation: littlecircles3 0.6s ease;
+    }
+    
+    @keyframes littlecircles3 {
+        0% { transform: scaleX(1.0);}
+        50% { transform:scaleX(1.3);}
+        100% { transform: scaleX(1.0);}
+    }
+    
+    .littlecircles3 p{
+        width: 14.58vw;
+        height: 14.58vw;
+        position: absolute;
+        display: block;
+        top: 6vw;
+        margin-left: 7.5vw;
+    }
+    /* пятый блок */
+    .fifthblock{
+        width: 70%;
+        height: 65.67vw;
+        display: block;
+        position: relative;
+    }
+    
+    .fifthblock img{
+        width: 100%;
+    }
+    
+    .fifthblock div{
+        width: 10.42vw;
+        height: 10.42vw;
+        background-image: url(../img/circle.svg);
+        background-size: 100%;
+        text-align: center;
+        line-height:5.77vw;
+        font-size: 5.77vw;
+        font-weight: 400;
+        position: absolute;
+        display: block;
+    }
+    .fifthblock p{
+        width: 5.77vw;
+        height: 5.77vw;
+        position: absolute;
+        display: block;
+        top: 2vw;
+        margin-left: 2.3vw;
+    }
+    
+    .circlejump1{
+        top: 3.4vw;
+        margin-left: 10.5vw;
+        animation: circlejump1 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump1{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(30vw,8vw);}
+        50%{transform: translate(13vw,-14vw);}
+        75%{transform: translate(7.5vw,42.5vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    
+    .circlejump2{
+        top: 19.4vw;
+        margin-left: 22.5vw;
+        animation: circlejump2 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump2{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(4vw,10vw);}
+        50%{transform: translate(13vw,-12vw);}
+        75%{transform: translate(10.5vw,26.8vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    
+    .circlejump3{
+        top: 9.8vw;
+        margin-left: 41.5vw;
+        animation: circlejump3 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump3{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(20vw,-7vw);}
+        50%{transform: translate(14vw,16vw);}
+        75%{transform: translate(3vw,35vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    
+    .circlejump4{
+        top: 28.4vw;
+        margin-left: 43.5vw;
+        animation: circlejump4 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump4{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(18vw,5vw);}
+        50%{transform: translate(25vw,-6vw);}
+        75%{transform: translate(8vw,25.5vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    
+    .circlejump5{
+        top: 40.4vw;
+        margin-left: 30.5vw;
+        animation: circlejump5 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump5{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(7vw,-15vw);}
+        50%{transform: translate(20vw,0vw);}
+        75%{transform: translate(10vw,14vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    
+    .circlejump6{
+        top: 17.4vw;
+        margin-left: 74.5vw;
+        animation: circlejump6 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump6{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(9vw,-10vw);}
+        50%{transform: translate(12vw,14vw);}
+        75%{transform: translate(-8.5vw,25.5vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    
+    .circlejump7{
+        top: 31.3vw;
+        margin-left: 81.5vw;
+        animation: circlejump7 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump7{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(-10vw,-5vw);}
+        50%{transform: translate(-6vw,14vw);}
+        75%{transform: translate(-16vw,22vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    
+    .circlejump8{
+        top: 8.4vw;
+        margin-left: 62.5vw;
+        animation: circlejump8 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump8{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(-10vw,16vw);}
+        50%{transform: translate(0vw,0vw);}
+        75%{transform: translate(-7vw,35.5vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    
+    .circlejump9{
+        top: 34.4vw;
+        margin-left: 9.5vw;
+        animation: circlejump9 5s cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+    }
+    @keyframes circlejump9{
+        0%{transform: translate(0vw,0vw);}
+        25%{transform: translate(7vw,13vw);}
+        50%{transform: translate(0vw,0vw);}
+        75%{transform: translate(16vw,20vw);}
+        100%{transform: translate(0vw,0vw);}
+    }
+    /* шестой блок */
+    .footer{
+        width: 80%;
+        height: 8vw;
+        display: block;
+        position: relative;
+    }
+    
+    .footer p{
+        font-size: 2.08vw;
+    }
+    
+    .nombergroup{
+        display: block;
+        position: absolute;
+        top: 1.2vw;
+        margin-left: 6.94vw;
+    }
+    
+    .name{
+        display: block;
+        position: absolute;
+        top: 3.4vw;
+        margin-left: 6.94vw;
+    }
+    
+    .logo{
+        width: 14.01vw;
+        height: 5.36vw;
+        display: block;
+        position: absolute;
+        margin-left: 79.24vw;
+    }
+    
+    .logo img{
+        width: 100%;
+    }
+    
+    }
